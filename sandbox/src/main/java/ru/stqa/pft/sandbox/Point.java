@@ -13,7 +13,7 @@ public class Point {
 
 
   public double distance(Point b){
-    double d = ((b.x - this.x) * (b.x - this.x)) + ((b.y - this.y) * (b.y * this.y));
+    double d = ((b.x - this.x) * (b.x - this.x)) + ((b.y - this.y) * (b.y - this.y));
     return Math.sqrt(d);
   }
 
