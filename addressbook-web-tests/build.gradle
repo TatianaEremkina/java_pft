@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.3.0'
+    implementation 'org.seleniumhq.selenium:htmlunit-driver:4.6.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.6.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.6.0'
+}
